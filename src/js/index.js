@@ -6,7 +6,10 @@ import ReactDOM from "react-dom";
 import "../styles/index.css";
 
 //import your own components
-import Home from "./component/home.jsx";
+import Frutas from "./component/frutas.jsx";
+import Cart from "./component/cart.jsx";
+import Forms from "./component/forms.jsx";
+
 
 //render your react application
-ReactDOM.render(<Home />, document.querySelector("#app"));
+ReactDOM.render(<Forms />, document.querySelector("#app"));
